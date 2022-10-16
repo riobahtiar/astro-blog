@@ -10,7 +10,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://example.com',
+  site: 'https://rio.deno.dev',
   integrations: [mdx(), sitemap(), react()],
   output: "server",
   adapter: deno()
